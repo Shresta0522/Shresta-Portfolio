@@ -35,29 +35,52 @@
   <main id="main">
 
     <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <section id="portfolio-details" class="portfolio-details" style="padding-left: 3%; padding-right: 3%;">
       <div class="container">
-
+        <!-- <div class="row gy-8"> -->
+          
+            
+        <!-- </div> -->
+        
+      </div>
         <div class="row gy-8">
-          <h4>SPRINT-6: </h4>
+          
+  
           
           
           <div class="col-lg-6">
-            
-            <div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/Practicum/CoursePage.PNG" alt="">
+            <div class="portfolio-info">
+              <!-- <div class="col-md-4"> -->
+                <h2><strong>Sprint-6</strong></h2>
+                <h5>User Story</h5>
+                <ul>
+                  Preview page for courses and viewing their 
+                  learning objectives as well as activities.
+                </ul>
+              </div>
+              <!-- <div class="col-md-2"> -->
+               
+              <!-- </div> -->
+
+
+
+
+            
+            <div class="portfolio-details-slider swiper-container" >
+              <div class="swiper-wrapper align-items-center" >
+
+                <div class="swiper-slide" style="border: 1px dotted;">
+                  <img src="assets/img/Practicum/get-api-id.PNG" alt="">
               
                 </div>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/Practicum/mongoDB.PNG" alt="">
+                <div class="swiper-slide" style="border: 1px dotted;">
+                  <img src="assets/img/Practicum/post-apis.PNG" alt="">
                 </div>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/Practicum/serverconnected.PNG" alt="">
+                <div class="swiper-slide" style="border: 1px dotted;">
+                  <img src="assets/img/Practicum/Database-courseInstructor.PNG" alt="">
                 </div>
 
               </div>
@@ -67,33 +90,78 @@
 
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-6" >
             
-              <div class="portfolio-info">
-                <h3>Project information</h3>
+             
+            <div class="portfolio-description" style="margin-right:2%;">
+
+    
+ 
+            <div>
+
+              <h2><strong>Learning Objectives Page</strong></h2>
+              <h5><strong>Description:</strong></h5>
+                  
                 <ul>
-                  <li><strong>Category</strong>: Web design</li>
-                  <li><strong>Client</strong>: ASU Company</li>
-                  <li><strong>Project date</strong>: 01 March, 2020</li>
-                  <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                   <!-- <h5><strong>Course Details Form </strong></h5> -->
+                   <strong>Generating ID</strong>
+                  <ul>
+                   
+                    <li>
+                    Worked on creating Learning objective which has series attached with the related course name. For example: Python-L1,Python-L2, Etc.
+                    L represents the learning objective and followed by the number for it. Using Api we were send the course name from one component to another
+                     as the course database will have all the information
+                    </li>
+                    <li>
+                      Also worked on generating Youtube title baed on the Youtube ID provided in the input feild. Where the yoube links are one of the activities in learning objectives
+
+                    </li>
+                    
+                    </ul>
+
+                </ul> 
+                <ul>
+
+                  <strong>Create,Save and Display JSON Content</strong>
+
+                  <ul>
+                    <li>
+                      Here,we have used multer in node to save the file in JSON format and 
+                      used file storage  in node.js to save it in  particular path.
+                    </li>
+                    <li>
+                      In the backend, it will search for the folder as per course name 
+                      and if folder doesn't exist then it will create the folder and
+                       then creates the Learning Objective Files as JSON
+                    </li>
+                    <li>
+                      It creates a folder and then creates the files later in it.
+                      the JSON data gets appended to to that folder. 
+                      Along with this, the dropdown will be displayed at the right of the page. 
+                    </li>
+                    <li>
+                      In learning objective page, when the user clicks on the dropdown button 
+                      then it displays the items like preview and delete
+                      When user clicks on preview then
+                       it displays the id, title, activity type, video id, notes title and
+                      when the user clicks on delete then that file gets deleted.
+                    </li>
+                    <li>
+                      To display all the learning objective files we have used apis call from the backend to display all the files.
+                    </li>
+                    
+                  </ul>
+
                 </ul>
-              </div>
-           
+              
             
-            <div class="portfolio-description">
-            <h2>Design and Prototype</h2>
-            <li><strong>Description:</strong></li>
-                  <li></li>
-                <li>Successfully developed this application with 10 questions with a timer. If we start the quiz then the timer starts. If we skip any question, an alert message will arrive at the top. At last scores will be displayed. </li>
-                <li>  Used Ajax and Json to fetch data from Git repository</li>
-              </ul>
-            <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-            </p>
+
+
+            </div>
           </div>
         </div>
           </div>
-
+          <hr/>
         </div>
 
 

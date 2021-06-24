@@ -35,29 +35,53 @@
   <main id="main">
 
     <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <section id="portfolio-details" class="portfolio-details" style="padding-left: 3%; padding-right: 3%;">
       <div class="container">
-
+        <!-- <div class="row gy-8"> -->
+          
+            
+        <!-- </div> -->
+        
+      </div>
         <div class="row gy-8">
-          <h4>SPRINT-7: </h4>
+          
+  
           
           
           <div class="col-lg-6">
-            
-            <div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/Practicum/CoursePage.PNG" alt="">
+            <div class="portfolio-info">
+              <!-- <div class="col-md-4"> -->
+                <h2><strong>Sprint-7</strong></h2>
+                <h5>User Story</h5>
+                <ul>
+                  As a course developer, I should be able to 
+                  link the pre-requisite learning objectives for a learning objective, 
+                  so that it can be used to personalize the module for each student in the iLMS.
+                </ul>
+              </div>
+              <!-- <div class="col-md-2"> -->
+               
+              <!-- </div> -->
+
+
+
+
+            
+            <div class="portfolio-details-slider swiper-container" >
+              <div class="swiper-wrapper align-items-center" >
+
+                <div class="swiper-slide" style="border: 1px dotted;">
+                  <img src="assets/img/Practicum/get-api-id.PNG" alt="">
               
                 </div>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/Practicum/mongoDB.PNG" alt="">
+                <div class="swiper-slide" style="border: 1px dotted;">
+                  <img src="assets/img/Practicum/post-apis.PNG" alt="">
                 </div>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/Practicum/serverconnected.PNG" alt="">
+                <div class="swiper-slide" style="border: 1px dotted;">
+                  <img src="assets/img/Practicum/Database-courseInstructor.PNG" alt="">
                 </div>
 
               </div>
@@ -67,33 +91,76 @@
 
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-6" >
             
-              <div class="portfolio-info">
-                <h3>Project information</h3>
+             
+            <div class="portfolio-description" style="margin-right:2%;">
+
+    
+ 
+            <div>
+
+              <h2><strong>Day Modules page</strong></h2>
+              <h5><strong>Description:</strong></h5>
+                  
                 <ul>
-                  <li><strong>Category</strong>: Web design</li>
-                  <li><strong>Client</strong>: ASU Company</li>
-                  <li><strong>Project date</strong>: 01 March, 2020</li>
-                  <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                   <!-- <h5><strong>Course Details Form </strong></h5> -->
+                   <strong>Day-Wise Module</strong>
+                  <ul>
+                    <li>
+                      n daywise modules, we have created a form which consists of id and description
+                       and given a two select dropdowns where one is for learning objective and other is for prerequisites
+                    </li>
+                   
+                    <li>
+                      In the select dropdown, the learning objectives were fetched from backend using api calls.
+                       After selecting the learning objectives then we need to click on add and 
+                       to preview that we have displayed it in table below. After entering all the details
+                        we need to click on save button
+                    </li>
+                    <li>
+                      Once we click on Save button,the json get created and gets appended to the file.
+                      These files will be stored in one folder which is created based on name of the course.
+                       
+                    </li>
+                    
+                    </ul>
+
+                </ul> 
+                <ul>
+
+                  <strong>List of Day Modules</strong>
+
+                  <ul>
+                    <li>
+                     On clicking create button, it is previewed at the right of the page and clicking on it,
+                      it displays the items like preview and delete.
+                      When we click on preview then the details in the file gets displayed. 
+                      When we click on delete then that files get deleted. 
+                    </li>
+                    <li>
+                      When user clicks on course page then the page gets redirected to course page and
+                       when user clicks on module page it redirects to the day module page.
+                      
+                    </li>
+                    <li>
+                      In day modules page we created a button
+                       and when user clicks on it then the page redirects to learning objectives page.
+                       Therefore, this is how we were able to connect course page, Learning objective page and the day module page.
+                    </li>
+                    
+                  </ul>
+
                 </ul>
-              </div>
-           
+              
             
-            <div class="portfolio-description">
-            <h2>Design and Prototype</h2>
-            <li><strong>Description:</strong></li>
-                  <li></li>
-                <li>Successfully developed this application with 10 questions with a timer. If we start the quiz then the timer starts. If we skip any question, an alert message will arrive at the top. At last scores will be displayed. </li>
-                <li>  Used Ajax and Json to fetch data from Git repository</li>
-              </ul>
-            <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-            </p>
+
+
+            </div>
           </div>
         </div>
           </div>
-
+          <hr/>
         </div>
 
 
